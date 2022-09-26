@@ -1,0 +1,75 @@
+*{
+    text-align: right;
+}
+
+
+body{
+    background-image: url(background_image.avif);
+    background-size: cover;
+
+}
+h2 ,p{
+    color: #AA4139;
+    text-align: center;
+    border: 5px solid rgba(255, 167,170,0.5);
+    cursor: pointer;
+}
+
+/* p{
+    color: pink !important;
+} */
+
+p{ 
+    text-decoration: underline;
+    text-transform: uppercase;
+    line-height: 30px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 150%;
+    font-family: 'Courier New', Courier, monospace ;
+    
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+.webtext{
+    border: 5px dashed green ;
+}
+
+.active{
+    color: red;
+}
+
+#div1{
+    background:rgba(0, 0,255,0.2);
+}
+
+
+#div2{
+    background: rgba(255,0,0, 0.2);
+}
+
+/* this mean we select every p element which his parent is div */
+div > p{
+    text-align: left;
+}
+
+/* this means that we select every p element that after the h2 */
+h2+p{
+    color:black;
+}
+
+h2:hover{
+    color:orange;
+}  
+
+.webtext:first-child{
+    border: 5px blue solid;
+}
+
+.webtext:last-child{
+    border: 5px orange solid;
+} 

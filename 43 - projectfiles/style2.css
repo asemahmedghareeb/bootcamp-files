@@ -1,0 +1,38 @@
+/* :root{
+    font-size: 50px;;
+} */
+h2{
+    color: blue;
+}
+
+/* .boxmodel{ */
+    /* border:5px solid red;
+    display: inline-block; */
+    /* top - right - bottom - left */
+    /* (bottom top) (left right) */
+    /* padding:  5px 20px;
+    margin: 0  20px;
+    width: 50px;
+    right:50px; */
+/* }   */
+
+/* p{
+    font-size: 20px;
+}
+
+ */
+
+/* em is the size of the parent element */
+/* rem refere to the root size */
+/* the defult size for root is 16px */
+span{
+    /* font-size: 2em; */
+    font-size: 32px;
+    font-size: 2rem;
+}
+
+
+
+
+
+
