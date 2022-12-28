@@ -4,7 +4,7 @@
     /* grid-template-columns: repeat(3,1fr); */
     /* grid-template-columns: auto 1fr 1fr; */
     grid-template-columns: 1fr 1fr 2fr;
-    grid-template-rows: 1fr ;
+    grid-template-rows: 1fr 2fr ;
     gap: 20px;
 }
 .zone {
@@ -18,10 +18,10 @@
 }
 
 .zone:hover {
-    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    /* -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px; */
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px,  inset rgba(0,0,0,0.15) 10px -10px 20px; 
 }
 
 

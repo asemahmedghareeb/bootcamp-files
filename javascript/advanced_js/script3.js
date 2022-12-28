@@ -30,13 +30,10 @@ class Player{
         this.name=name;
         this.type=type;
     }
-
     introduce(){
         console.log(`Hi I am ${this.name},i'm a${this.type}`)
     }
 }
-
-
 class Wizard extends Player {
     constructor(name,type){
         super(name,type)
@@ -45,8 +42,6 @@ class Wizard extends Player {
         console.log(`weee i'm a ${this.type}`)
     }
 }
-
 Wizrd1=new Wizard("shellY","healer");
 Wizrd2=new Wizard("shawn","dark magic");
-
 Wizrd1.introduce();
