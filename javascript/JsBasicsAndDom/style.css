@@ -1,0 +1,17 @@
+.CoolTitle{
+    text-align: center;
+
+    font-family: 'Oswald', Helvetica, sans-serif;
+    font-size: 40px;
+    transform: skew(-10deg);
+    letter-spacing: 4px;
+
+    word-spacing: -8px;
+    color: tomato;
+
+}
+
+.done{
+    text-decoration: line-through;
+}
+

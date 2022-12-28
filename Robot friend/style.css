@@ -4,7 +4,7 @@ h1 {
 }
 
 .robots {
-	display: flex;
+	display:flex;
 	justify-content: center;
 }
 
