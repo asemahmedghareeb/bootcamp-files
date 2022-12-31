@@ -369,15 +369,15 @@ var lis=document.getElementsByTagName('li')
 for(var i=0;i<lis.length;i++){
 	lis[i].classList.toggle(String(i))
 }
-for(var i=0;i<x.length;i++){
-	console.log(lis)
-	e(i)
-}
+const e=(i)=>{
 
-function e(i){
-
-	btns[i+1].addEventListener('click',function(){
-		lis[i].remove();
+	btns[i].addEventListener('click',e=>{
+		// e.stopPropagation();
+		lis[i-1].remove();
 	})
 	
+}
+
+for(var i=1;i<=5;i++){
+	e(i)
 }
