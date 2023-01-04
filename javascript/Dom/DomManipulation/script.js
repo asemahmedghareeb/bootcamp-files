@@ -28,7 +28,6 @@ console.log(d.innerText)
 const strong=document.createElement("strong");
 strong.innerText="hello world 2";
 div.append(strong)
-
 */
 const spanHi=document.querySelector('#hi')
 const spanBye=document.querySelector('#bye')
@@ -44,10 +43,7 @@ spanHi.setAttribute('title','hello there');
 
 //removing attribute
 // spanHi.removeAttribute('title');
-
-
 spanBye.toggleAttribute("title","bye")
-
 //adding classes and removing classes
 spanBye.classList.add('red')
 spanBye.classList.remove('red');

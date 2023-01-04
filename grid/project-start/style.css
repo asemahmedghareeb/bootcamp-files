@@ -7,7 +7,6 @@ html,body{
     margin: 0px;
 }
 .zone {
-
     cursor:pointer;
     color:#FFF;
     font-size:2em;
@@ -52,7 +51,6 @@ li{
 
 .cover{
     width: 30rem;
-    
 }
 
 /* project grid */
@@ -61,7 +59,7 @@ li{
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
 }
-
+/* this mean all the img elemtent inside the box class */
 .box>img{
     width: 100%;
 }
@@ -70,7 +68,6 @@ li{
     padding:100px;
     margin: 20px;
 }
-
 
 /* footer */
 footer{
